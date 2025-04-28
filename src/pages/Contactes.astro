@@ -6,7 +6,7 @@ import cv from '../cv.json';
 <Layout>
 	<main>
 		<section>
-			<h1 class="text-3xl mt-10">Contact </h1>
+			<h1 class="text-3xl mt-10 font-bold">Contact </h1>
 			<hr class="mt-5" />
 			<p class="mt-5">
 				If you'd like to get in touch, you can reach me using the following methods. Please note, that I'm not
@@ -26,12 +26,14 @@ import cv from '../cv.json';
 						<h2>Pagina Web<br /><span class="content">{cv.contact.website}</span></h2>
 					</div>
 					<div id="Linkedin">
-						<h2>Linkedin<br /><span class="text-gray-400"><a href={cv.contact.linkedin}></a>{cv.contact.linkedin}</span></h2>
+						<h2>Linkedin<br /><span class="content"><a href={cv.contact.linkedin}></a>{cv.contact.linkedin}</span></h2>
 					</div>
 				</div>
 			</div>
+			<button id="Boton" class="bg-black text-white w-50 h-10 rounded-3xl duration-300 ease-in-out hover:scale-110 hover:shadow-lg" onclick="window.location.href='LandingPage'"><p class="font-mono">← Retornar</p></button>
 			<hr class="mt-5" />
 		</section>
+ 
 	</main>
 </Layout>
 

@@ -24,10 +24,11 @@ interface propietats{
       </a>
       </div>      
       <div class="w-1/2 bg-gray-100 rounded-2xl shadow-md p-4 flex flex-col items-center text-center">
-        <a href={cv.projects[1].url}></a>
-        <img src={cv.projects[1].image} alt="Img" class="rounded-xl mb-4 w-full h-40 object-cover" />
-        <h3 class="font-semibold text-lg">{cv.projects[1].name}</h3>
-        <p class="text-sm text-gray-500 mt-1">{cv.projects[1].description}</p>
+        <a href={cv.projects[1].url}>
+          <img src={cv.projects[1].image} alt="Img" class="rounded-xl mb-4 w-full h-40 object-cover" />
+          <h3 class="font-semibold text-lg">{cv.projects[1].name}</h3>
+          <p class="text-sm text-gray-500 mt-1">{cv.projects[1].description}</p>
+        </a>
       </div>
 
 
