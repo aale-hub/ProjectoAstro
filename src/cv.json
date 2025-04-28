@@ -91,7 +91,7 @@
     {
       "name": "Fitness Tracker",
       "description": "Aplicació per monitoritzar entrenaments i progrés físic.",
-      "url": "http://projecteastronetlify.netlify.app//FitnessTracker",
+      "url": "http://localhost:4321/FitnessTracker",
       "image": "https://images.pexels.com/photos/2261477/pexels-photo-2261477.jpeg"
     }
   ],
