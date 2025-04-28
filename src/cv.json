@@ -1,0 +1,133 @@
+{
+    "name": "Alejandro Beas",
+    "title": "Desenvolupador Web Full Stack",
+    "profile_summary": "Desenvolupador web apassionat per crear aplicacions web escalables i amb una experiència pràctica sòlida en el desenvolupament frontend i backend. Amb més de 5 anys d'experiència en tecnologies modernes com React, Node.js i Vue.js, em dedico a dissenyar i implementar solucions que millorin l'experiència de l'usuari i optimitzin el rendiment de les aplicacions. La meva especialització en arquitectures d'aplicacions escalables i el treball amb equips multidisciplinaris m'ha permès afrontar reptes tècnics i crear productes amb un gran impacte. Em motiva el desenvolupament d'interfícies intuïtives que permetin als usuaris interactuar de manera fàcil i eficient amb les aplicacions.",
+    "bio": "Hola! Em dic Alejandro Beas. Sóc de Barcelona i em dedico a desenvolupar productes propis, a més de col·laborar amb empreses increïbles per ajudar-les a construir els seus. Recentment, he estat treballant amb MoonPay per contribuir al futur dels pagaments digitals. Abans de això, vaig formar part de Monzo, el banc amb més creixement del Regne Unit. Hi vaig començar com a dissenyador de producte i més endavant vaig fer la transició a desenvolupador web, col·laborant amb diversos equips per repensar la banca moderna per a milions de persones. També vaig treballar a Kalo (que més tard es convertiria en Polywork), on vaig ser la primera incorporació en l’àrea d’enginyeria d’interfície d’usuari. Allà em vaig encarregar de construir el sistema de disseny i garantir un alt nivell de qualitat en la experiència de usuari. Sempre he estat a cavall entre el disseny i el desenvolupament, però el fil conductor de tot plegat ha estat la meva passió per crear coses que a la gent li agradi fer servir.",
+    "contact": {
+        "email": "abeasruiz@gmail.com",
+        "phone": "+34 555 123 456",
+        "location": "Gavà, Catalunya",
+        "website": "https://alejandro",
+        "linkedin": "https://www.linkedin.com/in/alejandro-beas-ruiz-925b41346/",
+        "github": "https://github.com/aale-hub"
+    },
+    "skills": [
+        "JavaScript", "TypeScript", "React", "Astro", "Vue.js",
+        "Node.js", "Express.js", "MongoDB", "PostgreSQL",
+        "HTML", "CSS", "SASS", "TailwindCSS", "Bootstrap",
+        "Git", "Docker", "CI/CD", "Testing (Jest, Cypress)"
+    ],
+    "experience": [{
+            "position": "Desenvolupador Full Stack",
+            "company": "TechSolutions",
+            "location": "Barcelona, Catalunya",
+            "duration": "2021 - Present",
+            "responsibilities": [
+                "Desenvolupament i manteniment d'aplicacions web amb React i Node.js.",
+                "Implementació de bases de dades amb PostgreSQL i MongoDB.",
+                "Integració d'APIs REST i GraphQL.",
+                "Millora del rendiment i accessibilitat de les aplicacions."
+            ]
+        },
+        {
+            "position": "Desenvolupador Frontend",
+            "company": "DigitalApps",
+            "location": "Barcelona, Catalunya",
+            "duration": "2021 - 2022",
+            "responsibilities": [
+                "Creació de components UI reutilitzables amb React i TailwindCSS.",
+                "Optimització de la càrrega de pàgines amb tècniques de lazy loading i code splitting.",
+                "Implementació de proves unitàries i e2e amb Jest i Cypress."
+            ]
+        },
+        {
+            "position": "Desenvolupador Junior",
+            "company": "WebTech",
+            "location": "Gavà, Catalunya",
+            "duration": "2018 - 2021",
+            "responsibilities": [
+                "Disseny i implementació de components interactius amb Vue.js.",
+                "Col·laboració en el desenvolupament de funcions backend amb Node.js.",
+                "Millora de la UX/UI amb enfocament en la facilitat d'ús i l'accessibilitat.",
+                "Integració d'APIs i millora de la seguretat de les aplicacions."
+            ]
+        }
+    ],
+    "education": [{
+            "degree": "FP de Desenvolupament d'Aplicacions Web",
+            "institution": "FP Núria",
+            "year": "2012 - 2014"
+        },
+        {
+            "degree": "Grau en Enginyeria Informàtica",
+            "institution": "Universitat Pompeu Fabra",
+            "year": "2014 - 2018"
+        }
+    ],
+    "languages": [
+        { "language": "Català", "level": "Nadiu" },
+        { "language": "Espanyol", "level": "Nadiu" },
+        { "language": "Anglès", "level": "Avançat" }
+    ],
+       "projects": [
+    {
+      "name": "TaskManager App",
+      "description": "Aplicació de gestió de tasques amb React i Firebase.",
+      "url": "http://localhost:4321/TaskManager",
+      "image": "https://images.pexels.com/photos/3184360/pexels-photo-3184360.jpeg"
+    },
+    {
+      "name": "E-commerce Platform",
+      "description": "Plataforma de comerç electrònic desenvolupada amb Vue.js i Node.js.",
+      "url": "http://localhost:4321/E-commerce",
+      "image": "https://images.pexels.com/photos/2265482/pexels-photo-2265482.jpeg"
+    },
+    {
+      "name": "Blog CMS",
+      "description": "Sistema de gestió de continguts per blogs amb Astro i Markdown.",
+      "url": "http://localhost:4321/BlogCMS",
+      "image": "https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg"
+    },
+    {
+      "name": "Fitness Tracker",
+      "description": "Aplicació per monitoritzar entrenaments i progrés físic.",
+      "url": "http://localhost:4321/FitnessTracker",
+      "image": "https://images.pexels.com/photos/2261477/pexels-photo-2261477.jpeg"
+    }
+  ],
+    
+        "blog_posts": [
+          {
+            "title": "Optimització de React: Com millorar el rendiment de la teva aplicació",
+            "summary": "Explorem tècniques com memoization, lazy loading i code splitting per optimitzar aplicacions React.",
+            "date": "15-02-2024"
+          },
+          {
+            "title": "Node.js i Express: Bones pràctiques per al desenvolupament d'APIs",
+            "summary": "Guia completa per estructurar projectes Node.js de manera escalable i eficient.",
+            "date": "20-01-2024"
+          },
+          {
+            "title": "Optimització de Vue: Millora la teva aplicació amb composables",
+            "summary": "Descobreix com reutilitzar lògica amb composables, millorar la llegibilitat i mantenibilitat del teu codi amb Vue 3.",
+            "date": "12-03-2024"
+          },
+          {
+            "title": "Autenticació amb JWT: Protegeix les teves APIs en Node.js",
+            "summary": "Una guia pas a pas per implementar JSON Web Tokens per a login segur i control d'accés en aplicacions backend.",
+            "date": "28-02-2024"
+          },
+          {
+            "title": "Tailwind CSS: Com construir UI modernes amb velocitat",
+            "summary": "Explorem com Tailwind pot accelerar el desenvolupament front-end amb utilitats predefinides i un disseny net.",
+            "date": "07-03-2024"
+          },
+          {
+            "title": "Intel·ligència Artificial amb Python: Projectes pràctics",
+            "summary": "Aprèn a construir models simples d'IA amb Python utilitzant biblioteques com Scikit-learn i TensorFlow.",
+            "date": "03-04-2024"
+          }
+        ]
+
+      
+}

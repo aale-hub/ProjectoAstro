@@ -1,0 +1,35 @@
+---
+import Navegacio from '../components/Navegacio.astro';
+import Peu from '../components/Peu.astro';
+---
+
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width" />
+<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+<meta name="generator" content={Astro.generator} />
+<title>Alejandro Beas</title>
+
+<body>
+	<div id="margen">
+		<header>
+			<Navegacio />
+		</header>
+		<slot />
+		<footer>
+			<Peu />
+		</footer>
+	</div>
+</body>
+
+<style scoped>
+	html,
+	body {
+		display: flex;
+		justify-content: center;
+		font-family: sans-serif;
+	}
+	#margen {
+		width: 670px;
+		margin-top: 50px;
+	}
+</style>

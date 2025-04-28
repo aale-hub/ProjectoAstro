@@ -1,0 +1,19 @@
+---
+import '../styles/global.css';
+import cv from '../cv.json';
+interface propietats{
+    title : string;
+}
+
+const {Name = cv.name} = Astro.props;
+const {Title = cv.title} = Astro.props;
+const {Bio = cv.profile_summary} = Astro.props;
+---
+
+<h1 class="font-bold pt-9 text-3xl">Ciao, I'm {Name}</h1>
+<h2 class="text-gray-400 text-2xl">{Title}</h2>
+<h3 class="pt-3 pb-3">{Bio}</h3>    
+<button id="Boton" class="bg-black text-white w-50 h-10 rounded-3xl duration-300 ease-in-out hover:scale-110 hover:shadow-lg" onclick="window.location.href='Informacio'"><p class="font-mono">Mes Informació →</p></button>
+<div class="pt-20 pb-20">
+    <hr class="border-0.5 border-gray-300 w-[700px] "/> 
+</div>

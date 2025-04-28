@@ -1,0 +1,40 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+export async function getStaticPaths() {
+	return [
+		{ params: { slug: 'TaskManager' } },
+		{ params: { slug: 'E-commerce' } },
+		{ params: { slug: 'BlogCMS' } },
+		{ params: { slug: 'FitnessTracker' } },
+	];
+}
+
+const { slug } = Astro.params;
+
+const projects = {
+	TaskManager: {
+		title: 'Gestor de Tareas',
+		description: 'Una app para organizar tus tareas diarias.',
+	},
+	'E-commerce': {
+		title: 'Tienda Online',
+		description: 'Una plataforma de comercio electrónico.',
+	},
+	BlogCMS: {
+		title: 'Blog con CMS',
+		description: 'Sistema de gestión de contenido para blogs.',
+	},
+	FitnessTracker: {
+		title: 'Fitness Tracker',
+		description: 'Una app para registrar tu progreso físico.',
+	},
+};
+
+const project = projects[slug as keyof typeof projects];
+---
+
+<Layout>
+	<h1>{project.title}</h1>
+	<p>{project.description}</p>
+</Layout>

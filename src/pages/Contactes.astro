@@ -1,0 +1,57 @@
+---
+import Layout from '../layouts/Layout.astro';
+import cv from '../cv.json';
+---
+
+<Layout>
+	<main>
+		<section>
+			<h1 class="text-3xl mt-10">Contact </h1>
+			<hr class="mt-5" />
+			<p class="mt-5">
+				If you'd like to get in touch, you can reach me using the following methods. Please note, that I'm not
+				currently available for freelance projects.
+			</p>
+			<div id="container">
+				<div id="container1">
+					<div id="Email">
+						<h2>Email<br /><span class="content">{cv.contact.email}</span></h2>
+					</div>
+					<div id="GitHub">
+						<h2>GitHub<br /><span class="content">{cv.contact.github}</span></h2>
+					</div>
+				</div>
+				<div id="container2">
+					<div id="Twitter">
+						<h2>Pagina Web<br /><span class="content">{cv.contact.website}</span></h2>
+					</div>
+					<div id="Linkedin">
+						<h2>Linkedin<br /><span class="text-gray-400"><a href={cv.contact.linkedin}></a>{cv.contact.linkedin}</span></h2>
+					</div>
+				</div>
+			</div>
+			<hr class="mt-5" />
+		</section>
+	</main>
+</Layout>
+
+<style scoped>
+	#container {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	#container1 {
+		width: 49%;
+	}
+	#container2 {
+		width: 49%;
+	}
+	.content {
+		font-size: 15px;
+		font-weight: 500;
+	}
+	h2 {
+		line-height: 25px;
+		font-size: 20px;
+	}
+</style>
